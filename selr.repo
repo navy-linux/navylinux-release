@@ -1,0 +1,128 @@
+# Default Stable Enterprise Linux Repository
+[selr-everything]
+name=Stable Enterprise Linux Repository - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/everything/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Ceph Nautilus 
+[selr-ceph-nautilus]
+name=SELR Ceph Nautilus - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/ceph-nautilus/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Ceph Octopus
+[selr-ceph-octopus]
+name=SELR Ceph Octopus - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/ceph-octopus/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Ceph Pacific
+[selr-ceph-pacific]
+name=SELR Ceph Pacific - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/ceph-pacific/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Ceph Pacific
+[selr-ceph-pacific]
+name=SELR Ceph Pacific - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/ceph-pacific/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Docker CE 
+[selr-docker]
+name=SELR Docker CE - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/docker/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Gluster 6
+[selr-gluster-6]
+name=SELR Gluster 6 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/gluster-6/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Gluster 7 
+[selr-gluster-7]
+name=SELR Gluster 7 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/gluster-7/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Gluster 8
+[selr-gluster-8]
+name=SELR Gluster 8 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/gluster-8/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR Gluster 9
+[selr-gluster-9]
+name=SELR Gluster 9 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/gluster-9/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR nfsganesha 28
+[selr-nfsganesha-28]
+name=SELR nfsganesha 28 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/nfsganesha-28/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR nfsganesha 3
+[selr-nfsganesha-3]
+name=SELR nfsganesha 3 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/nfsganesha-3/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR samba 411
+[selr-samba-411]
+name=SELR samba 411 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/samba-411/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR samba 412
+[selr-samba-412]
+name=SELR samba 412 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/samba-412/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR samba 413
+[selr-samba-413]
+name=SELR samba 413 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/samba-413/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+
+# SELR samba 414
+[selr-samba-414]
+name=SELR samba 414 - el$releasever
+baseurl=https://cdn.navylinux.org/selr/releases/$releasever/$infra/samba-414/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+

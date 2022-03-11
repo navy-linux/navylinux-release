@@ -1,0 +1,7 @@
+[nl-powertools]
+name=Navy Linux Enterprise Power Repository - el$releasever
+#mirrorlist=https://mirrorlist.navylinux.org/?release=$releaseversion&arch=$infra&repo=powertools
+baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$infra/powertools/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official

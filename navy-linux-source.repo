@@ -1,0 +1,7 @@
+[nl-source]
+name=Navy Linux Source Repository - el$releasever
+#mirrorlist=https://mirrorlist.navylinux.org/?release=$releaseversion&arch=$infra&repo=source
+baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$infra/source/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
