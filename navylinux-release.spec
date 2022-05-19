@@ -16,9 +16,9 @@
 %define base_release_version 8
 %define full_release_version 8
 %define dist_release_version 8
-%define source_relase_version 8.5
-%define navylinux_minor_rel 211021
-%define navylinux_major_rel 8.5r1
+%define source_relase_version 8.6
+%define navylinux_minor_rel 230522
+%define navylinux_major_rel 8.6r1
 #define beta Beta
 %define dist .el%{dist_release_version}
 
@@ -40,7 +40,7 @@ Summary:        %{product_family} release file
 %endif
 Provides:       navylinux-release = %{version}-%{release}
 Provides:       navylinux-release(navylinux) = %{navylinux_major_rel}
-Provides:       redhat-release = 8.5
+Provides:       redhat-release = 8.6
 Provides:       system-release = %{base_release_version}
 Provides:       base-module(platform:el%{dist_release_version})
 Provides:       navylinux-release-eula
