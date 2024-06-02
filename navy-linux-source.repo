@@ -1,7 +1,31 @@
-[nl-source]
-name=Navy Linux Source Repository - el$releasever
-#mirrorlist=https://mirrorlist.navylinux.org/?release=$releaseversion&arch=$infra&repo=source
-baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$infra/source/
-enabled=0
+[base-source]
+name=CentOS-$releasever - Base
+baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$basearch/os/Source
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
+enabled=0
+gpgkey=https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
+
+#released updates
+[updates-source]
+name=CentOS-$releasever - Updates
+baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$basearch/updates/Source
+gpgcheck=1
+enabled=0
+gpgkey=https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
+
+#additional packages that may be useful
+[extras-source]
+name=CentOS-$releasever - Extras
+baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$basearch/extras/Source
+gpgcheck=1
+enabled=0
+gpgkey=https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
+
+#additiona packages that extend functionality of existing packages
+[centosplus-source]
+name=CentOS-$releasever - Plus
+baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$basearch/centosplus/Source
+gpgcheck=1
+enabled=0
+gpgkey=https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
+

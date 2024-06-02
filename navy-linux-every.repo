@@ -1,7 +1,0 @@
-[nl-every]
-name=Navy Linux Enterprise Every Repository - el$releasever
-#mirrorlist=https://mirrorlist.navylinux.org/?release=$releaseversion&arch=$infra&repo=everything
-baseurl=https://cdn.navylinux.org/navylinux/releases/$releaseversion/$infra/everything/
-enabled=1
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-navy-linux-official
